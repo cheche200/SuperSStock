@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/workspace/SuperSimpleStock_3/lib/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/spring-framework-4.1.6.RELEASE/eclipse/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/JUnit/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/Users/josecalderon/Documents/Personal/Librerias/Hamcrest/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
