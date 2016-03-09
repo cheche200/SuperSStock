@@ -1,4 +1,4 @@
-package com.supersimplestock.service;
+package com.supersimplestock.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

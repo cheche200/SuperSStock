@@ -1,5 +1,8 @@
 package com.supersimplestock.service;
 
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -10,13 +13,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.supersimplestock.data.*;
 import com.supersimplestock.exception.StockException;
 import com.supersimplestock.model.*;
+import com.supersimplestock.config.*;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+
+@RunWith(JUnit4ClassRunner.class)
 @ContextConfiguration(classes = SuperSimpleContext.class)
 /**
  * <h1>TestSimulation</h1>
@@ -45,10 +49,11 @@ public class TestSimulation {
     /**
      * This is the main method for the Simulation.
      * @throws StockException
+     * @throws IOException 
+     * @throws FileNotFoundException 
      */
 	@Test
-	public void simulation () throws StockException {
-
+	public void simulation () throws StockException, FileNotFoundException, IOException {
 		totalTradeList = new ArrayList<TradeBean>();
 		log.info("***Loading Stocks...");
 		stockList = stockDAO.loadStocks();
